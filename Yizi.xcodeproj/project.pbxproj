@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E46F54140DE72900BC8536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E46F53140DE72900BC8536 /* UIKit.framework */; };
+		15E46F56140DE72900BC8536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E46F55140DE72900BC8536 /* Foundation.framework */; };
+		15E46F58140DE72900BC8536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E46F57140DE72900BC8536 /* CoreGraphics.framework */; };
+		15E46F5E140DE72900BC8536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15E46F5C140DE72900BC8536 /* InfoPlist.strings */; };
+		15E46F61140DE72900BC8536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E46F60140DE72900BC8536 /* main.m */; };
+		15E46F64140DE72A00BC8536 /* YiziAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E46F63140DE72A00BC8536 /* YiziAppDelegate.m */; };
+		15E46F67140DE72A00BC8536 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E46F65140DE72A00BC8536 /* MainWindow.xib */; };
+		15E46F6A140DE72A00BC8536 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E46F69140DE72A00BC8536 /* FirstViewController.m */; };
+		15E46F6D140DE72A00BC8536 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E46F6C140DE72A00BC8536 /* SecondViewController.m */; };
+		15E46F70140DE72A00BC8536 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E46F6E140DE72A00BC8536 /* FirstView.xib */; };
+		15E46F73140DE72A00BC8536 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E46F71140DE72A00BC8536 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15E46F4F140DE72900BC8536 /* Yizi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yizi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E46F53140DE72900BC8536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15E46F55140DE72900BC8536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15E46F57140DE72900BC8536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15E46F5B140DE72900BC8536 /* Yizi-Info.plist */ = {isa = PBXFileReference; path = "Yizi-Info.plist"; sourceTree = "<group>"; };
+		15E46F5D140DE72900BC8536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15E46F5F140DE72900BC8536 /* Yizi-Prefix.pch */ = {isa = PBXFileReference; path = "Yizi-Prefix.pch"; sourceTree = "<group>"; };
+		15E46F60140DE72900BC8536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15E46F62140DE72900BC8536 /* YiziAppDelegate.h */ = {isa = PBXFileReference; path = YiziAppDelegate.h; sourceTree = "<group>"; };
+		15E46F63140DE72A00BC8536 /* YiziAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiziAppDelegate.m; sourceTree = "<group>"; };
+		15E46F66140DE72A00BC8536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		15E46F68140DE72A00BC8536 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		15E46F69140DE72A00BC8536 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		15E46F6B140DE72A00BC8536 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		15E46F6C140DE72A00BC8536 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		15E46F6F140DE72A00BC8536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		15E46F72140DE72A00BC8536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E46F4C140DE72900BC8536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E46F54140DE72900BC8536 /* UIKit.framework in Frameworks */,
+				15E46F56140DE72900BC8536 /* Foundation.framework in Frameworks */,
+				15E46F58140DE72900BC8536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E46F44140DE72900BC8536 = {
+			isa = PBXGroup;
+			children = (
+				15E46F59140DE72900BC8536 /* Yizi */,
+				15E46F52140DE72900BC8536 /* Frameworks */,
+				15E46F50140DE72900BC8536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E46F50140DE72900BC8536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E46F4F140DE72900BC8536 /* Yizi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E46F52140DE72900BC8536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E46F53140DE72900BC8536 /* UIKit.framework */,
+				15E46F55140DE72900BC8536 /* Foundation.framework */,
+				15E46F57140DE72900BC8536 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15E46F59140DE72900BC8536 /* Yizi */ = {
+			isa = PBXGroup;
+			children = (
+				15E46F62140DE72900BC8536 /* YiziAppDelegate.h */,
+				15E46F63140DE72A00BC8536 /* YiziAppDelegate.m */,
+				15E46F65140DE72A00BC8536 /* MainWindow.xib */,
+				15E46F68140DE72A00BC8536 /* FirstViewController.h */,
+				15E46F69140DE72A00BC8536 /* FirstViewController.m */,
+				15E46F6B140DE72A00BC8536 /* SecondViewController.h */,
+				15E46F6C140DE72A00BC8536 /* SecondViewController.m */,
+				15E46F6E140DE72A00BC8536 /* FirstView.xib */,
+				15E46F71140DE72A00BC8536 /* SecondView.xib */,
+				15E46F5A140DE72900BC8536 /* Supporting Files */,
+			);
+			path = Yizi;
+			sourceTree = "<group>";
+		};
+		15E46F5A140DE72900BC8536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E46F5B140DE72900BC8536 /* Yizi-Info.plist */,
+				15E46F5C140DE72900BC8536 /* InfoPlist.strings */,
+				15E46F5F140DE72900BC8536 /* Yizi-Prefix.pch */,
+				15E46F60140DE72900BC8536 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E46F4E140DE72900BC8536 /* Yizi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E46F76140DE72A00BC8536 /* Build configuration list for PBXNativeTarget "Yizi" */;
+			buildPhases = (
+				15E46F4B140DE72900BC8536 /* Sources */,
+				15E46F4C140DE72900BC8536 /* Frameworks */,
+				15E46F4D140DE72900BC8536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yizi;
+			productName = Yizi;
+			productReference = 15E46F4F140DE72900BC8536 /* Yizi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E46F46140DE72900BC8536 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 15E46F49140DE72900BC8536 /* Build configuration list for PBXProject "Yizi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15E46F44140DE72900BC8536;
+			productRefGroup = 15E46F50140DE72900BC8536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E46F4E140DE72900BC8536 /* Yizi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E46F4D140DE72900BC8536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E46F5E140DE72900BC8536 /* InfoPlist.strings in Resources */,
+				15E46F67140DE72A00BC8536 /* MainWindow.xib in Resources */,
+				15E46F70140DE72A00BC8536 /* FirstView.xib in Resources */,
+				15E46F73140DE72A00BC8536 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E46F4B140DE72900BC8536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E46F61140DE72900BC8536 /* main.m in Sources */,
+				15E46F64140DE72A00BC8536 /* YiziAppDelegate.m in Sources */,
+				15E46F6A140DE72A00BC8536 /* FirstViewController.m in Sources */,
+				15E46F6D140DE72A00BC8536 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15E46F5C140DE72900BC8536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E46F5D140DE72900BC8536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15E46F65140DE72A00BC8536 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E46F66140DE72A00BC8536 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		15E46F6E140DE72A00BC8536 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E46F6F140DE72A00BC8536 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		15E46F71140DE72A00BC8536 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E46F72140DE72A00BC8536 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15E46F74140DE72A00BC8536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15E46F75140DE72A00BC8536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15E46F77140DE72A00BC8536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yizi/Yizi-Prefix.pch";
+				INFOPLIST_FILE = "Yizi/Yizi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15E46F78140DE72A00BC8536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yizi/Yizi-Prefix.pch";
+				INFOPLIST_FILE = "Yizi/Yizi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E46F49140DE72900BC8536 /* Build configuration list for PBXProject "Yizi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E46F74140DE72A00BC8536 /* Debug */,
+				15E46F75140DE72A00BC8536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E46F76140DE72A00BC8536 /* Build configuration list for PBXNativeTarget "Yizi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E46F77140DE72A00BC8536 /* Debug */,
+				15E46F78140DE72A00BC8536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E46F46140DE72900BC8536 /* Project object */;
+}
