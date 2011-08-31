@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
-
+@interface FirstViewController : UIViewController
+    <UITableViewDelegate, UITableViewDataSource>
+{
+    NSArray *listData;
 }
+
+
+@property (nonatomic, retain) NSArray *listData;
 
 @end
